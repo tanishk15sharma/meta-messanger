@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { LogoutBtn } from "./LogoutBtn";
 import { unstable_getServerSession } from "next-auth/next";
-const Header = async () => {
+const Header: () => any = async () => {
   const session = await unstable_getServerSession();
 
   if (session) {
