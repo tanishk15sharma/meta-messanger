@@ -7,7 +7,7 @@ const Header = async () => {
 
   if (session) {
     return (
-      <header className="sticky top-0 z-50 bg-blue-50 p-10 shadow-md flex justify-between items-center">
+      <header className="sticky top-0 z-50 bg-blue-50 p-4 shadow-md flex justify-between items-center">
         <div className="flex space-x-2">
           <Image
             className="rounded-full mx-2 object-contain"
