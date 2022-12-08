@@ -1,6 +1,6 @@
 # Next.js 13 Meta Messenger
 
-Last week I tried NextJS13 and built a realtime responsive Chat Application Meta-Messenger. Users can login with their facebook a/c and use this chat application to talk with their friends/family.
+I tried NextJS 13 and built a realtime responsive Chat Application Meta-Messenger. Users can login with their facebook a/c and use this chat application to talk with their friends/family.
 Learning realtime experiences was the main objective. In this,
 - 20+ user in a group can chat while experiencing realtime chat updates.
 - Blue colored right side aligned messanger will be visible by the currect user who is logged in, others mesagers will be red colored left aligned.
