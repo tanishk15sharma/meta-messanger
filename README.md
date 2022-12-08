@@ -1,12 +1,27 @@
-# Next.js + Tailwind CSS Example
+# Next.js 13 Meta Messenger
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Last week I tried NextJS13 and built a realtime responsive Chat Application Meta-Messenger. Users can login with their facebook a/c and use this chat application to talk with their friends/family.
+Learning realtime experiences was the main objective. In this,
+- 20+ user in a group can chat while experiencing realtime chat updates.
+- Blue colored right side aligned messanger will be visible by the currect user who is logged in, others mesagers will be red colored left aligned.
+- Input validations
+- Signout user and its validations
+- Signin with Facekbook Account
+- Full Responsive
 
-## Deploy your own
+# Tech stack 
+- NextJS 13
+- Typescript
+- Redis
+- Pusher
+- useSWR
+- Axios
+- Next-auth
+- Upstash
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+# Application Demo Video 
+- https://lnkd.in/dxVE_YpF
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
 ## How to use
 
